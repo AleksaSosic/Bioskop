@@ -30,7 +30,6 @@ namespace Bioskop
             dt_Filmovi = new DataTable();
             adapter.Fill(dt_Filmovi);
             dataGridView_filmovi.DataSource = dt_Filmovi;
-            //dataGridView_filmovi.Columns["id_film"].Visible = false;
             dataGridView_filmovi.AllowUserToAddRows = false;
         }
 
